@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 05 Nov 2020 pada 12.05
+-- Waktu pembuatan: 05 Jan 2021 pada 09.19
 -- Versi server: 10.4.14-MariaDB
 -- Versi PHP: 7.3.21
 
@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
-(1, 'mchevro', 'Mchevro@12');
+(1, 'tomcat', 'tomcat123');
 
 -- --------------------------------------------------------
 
@@ -54,19 +54,6 @@ CREATE TABLE `anggota` (
   `HP` varchar(20) NOT NULL,
   `Kelas` varchar(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data untuk tabel `anggota`
---
-
-INSERT INTO `anggota` (`id`, `Nama`, `Jurusan`, `Angkatan`, `HP`, `Kelas`) VALUES
-(1, 'Mahendra Chevro Susanto', 'TKJ', '2018', '081381662912', 'XII'),
-(2, 'Miftahul Falah Suryawan', 'TKJ', '2020', '089635584373', 'X'),
-(3, 'Refi Fauzan', 'TKJ', '2020', '081298652799', 'X'),
-(4, 'Rifki Ramadhan', 'TKJ', '2020', '081807779305', 'X'),
-(5, 'Attala Naufal', 'TKJ', '2020', '089643373741', 'X'),
-(6, 'Irfan Hilmi Nur Hakim', 'TKJ', '2020', '082112102862', 'X'),
-(7, 'Muhammad Nur Rohman', 'TKJ', '2020', '081298571401', 'X');
 
 -- --------------------------------------------------------
 
@@ -85,7 +72,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nis`, `nama`) VALUES
-(1, 30303030, 'MAHENDRA CHEVRO SUSANTO'),
+(1, 30303030, 'TOMCAT SQUAD'),
 (2, 202110001, 'ADITYA DWI SETIAWAN '),
 (3, 202110002, 'AFFAN RILLA DAFFA PRATAMA'),
 (4, 202110003, 'ALDI PRAYOGA'),
@@ -383,7 +370,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT untuk tabel `anggota`
 --
 ALTER TABLE `anggota`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
