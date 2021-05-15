@@ -12,21 +12,21 @@ Pendaftaran eskul online tomcat dibuat pada saat pandemi tahun 2020. disaat itu 
 ![Javascript](https://img.shields.io/badge/-Javascript-efd81d?style=flat-square&logo=Javascript&logoColor=black)
 
 ## Installation
-1. Import database <a href="https://raw.githubusercontent.com/tomcat-squad/PHP-PendaftaranEskul/main/assets/config/tomcat_daftar.sql">tomcat_daftar.sql</a> ke mysql
+1. Import database <a href="https://raw.githubusercontent.com/tomcat-squad/PHP-PendaftaranEskul/main/assets/config/tomcatsq_register.sql">tomcatsq_register.sql</a> ke mysql
 #### Linux (Mysql)
 ```sql
 #Buat Database
 mysql -u root -p 
-CREATE DATABASE tomcat_daftar;
+CREATE DATABASE tomcat_register;
 quit;
 
 #Import Database
-mysql -u root -p < /home/tomcatsq/tomcat_daftar.sql
+mysql -u root -p < /home/tomcatsq/tomcatsq_register.sql
 ```
 #### Windows (XAMPP)
 ```
 1. Buat database di phpmyadmin
-2. Import tomcat_daftar.sql ke database yang dibuat.
+2. Import tomcatsq_register.sql ke database yang dibuat.
 3. Selesai
 ```
 2. Sesuaikan konfigurasi koneksi php ke mysql pada file <a href="https://github.com/tomcat-squad/PHP-PendaftaranEskul/blob/main/assets/config/koneksi.php">config.php</a>
@@ -35,7 +35,7 @@ mysql -u root -p < /home/tomcatsq/tomcat_daftar.sql
 $server = 'localhost';
 $user = 'root';
 $password = '';
-$database = 'tomcat_daftar';
+$database = 'tomcatsq_register';
 
 $koneksi = mysqli_connect($server, $user, $password, $database) OR DIE ("Koneksi Gagal");
 ```

@@ -3,6 +3,6 @@
   $server = 'localhost';
   $user = 'root';
   $password = '';
-  $database = 'tomcat_daftar';
+  $database = 'tomcatsq_register';
 
   $koneksi = mysqli_connect($server, $user, $password, $database) OR DIE ("Koneksi Gagal");

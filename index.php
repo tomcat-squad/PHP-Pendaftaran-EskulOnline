@@ -14,8 +14,8 @@ GITHUB : https://github.com/mchevro
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
 
 <body>
@@ -34,7 +34,7 @@ GITHUB : https://github.com/mchevro
     <!-- NAVBAR -->
     <nav class="navbar navbar-dark" style="background-color: #2D2D44">
         <a class="navbar-brand" href="https://daftar.tomcatsquad.com">
-            <img src="img/tomcatlogo.png" width="40" height="40" class="d-inline-block align-top" alt="tomcatlogo">
+            <img src="assets/img/tomcatlogo.png" width="40" height="40" class="d-inline-block align-top" alt="tomcatlogo">
             Tomcat Squad
         </a>
         <form class="form-inline">
@@ -47,7 +47,7 @@ GITHUB : https://github.com/mchevro
     <div class="login-dark">
         <form action="assets/prosesLogin.php" method="post">
             <div class="illustration">
-                <img src="img/tomcatlogo.png" width="150" height="150" alt="Tomcat">
+                <img src="assets/img/tomcatlogo.png" width="150" height="150" alt="Tomcat">
             </div>
             <center>
                 <h2 class="form-group">Login Siswa</h2>

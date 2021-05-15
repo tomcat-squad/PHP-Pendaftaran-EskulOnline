@@ -11,12 +11,12 @@ GITHUB : https://github.com/mchevro
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <title>Tomcat Squad
     </title>
 </head>
 
-<body style="background-image: url(../img/bg.png); background-size: 150%; position: center;">
+<body style="background-image: url(../assets/img/bg.png); background-size: 150%; position: center;">
     <?php
 session_start();
 if($_SESSION['status']!="login"){
@@ -33,7 +33,7 @@ $token_value = $csrf->get_token($token_id);
     <!-- NAVBAR -->
     <nav class="navbar navbar-dark" style="background-color: #2D2D44">
   <a class="navbar-brand" href="#">
-    <img src="../img/tomcatlogo.png" width="40" height="40" class="d-inline-block align-top" alt="tomcatlogo">
+    <img src="../assets/img/tomcatlogo.png" width="40" height="40" class="d-inline-block align-top" alt="tomcatlogo">
     Tomcat Squad
   </a>
   <form class="form-inline">

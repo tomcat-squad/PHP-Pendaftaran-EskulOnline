@@ -13,12 +13,12 @@ GITHUB : https://github.com/mchevro
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <title>Tomcat Squad</title>
 </head>
 
-<body style="background-image: url(../img/bg.png); background-size: cover; position: center;">
+<body style="background-image: url(../assets/img/bg.png); background-size: cover; position: center;">
     <?php 
   session_start();
   if($_SESSION['status']!="login"){
@@ -30,7 +30,7 @@ GITHUB : https://github.com/mchevro
     <!-- NAVBAR -->
     <nav class="navbar navbar-dark" style="background-color: #2D2D44">
   <a class="navbar-brand" href="#">
-    <img src="../img/tomcatlogo.png" width="40" height="40" class="d-inline-block align-top" alt="tomcatlogo">
+    <img src="../assets/img/tomcatlogo.png" width="40" height="40" class="d-inline-block align-top" alt="tomcatlogo">
     Tomcat Squad
   </a>
   <form class="form-inline">
